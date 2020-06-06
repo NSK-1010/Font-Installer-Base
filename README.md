@@ -1,6 +1,12 @@
 # Font-Installer-Base
 フォントをLinuxに簡単にインストールするためのスクリプトのベースです。
 
+### 改変方法
+
+<./install.sh><./install-deb.sh><./deb/fontname/control><./changelog.txt>の[]の部分とこの文章を中に書いてあるものに従って書き換え([]はいりません)、<./changelog.txt>とこの文書を加筆し、この文書を自分好みに書き換えてください。
+
+そして、[fontname](./deb/fontname)をインストールするフォント名に変更してください。
+
 ### インストール方法
 
 ターミナルでこちらのコマンドを入力してください。
