@@ -1,5 +1,5 @@
-# Inter-Font-Installer
-Inter UIフォントをLinuxに簡単にインストールするためのスクリプトです。
+# Font-Installer-Base
+フォントをLinuxに簡単にインストールするためのスクリプトのベースです。
 
 ### インストール方法
 
@@ -10,8 +10,8 @@ sudo権限が必要です。
 #### 通常インストール
 
 ```
-git clone https://github.com/NSK-1010/Inter-Font-Installer.git
-cd Inter-Font-Installer
+git clone https://github.com/[ユーザー名]/[リポジトリ名].git
+cd [リポジトリ名]
 sudo bash ./install.sh
 ```
 
@@ -20,8 +20,8 @@ sudo bash ./install.sh
 Debian系またはUbuntu系のみで使用できます。
 
 ```
-git clone https://github.com/NSK-1010/Inter-Font-Installer.git
-cd Inter-Font-Installer
+git clone https://github.com/[ユーザー名]/[リポジトリ名].git
+cd [リポジトリ名]
 sudo bash ./install-deb.sh
 ```
 
