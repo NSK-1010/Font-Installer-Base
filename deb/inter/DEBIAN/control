@@ -1,0 +1,7 @@
+Package: fonts-inter-custom
+Maintainer: PianoCat <kotone.olin1010@gmail.com>
+Section: fonts
+Priority: optional
+Architecture: all
+Depends: ${misc:Depends}
+Description: Interフォントのカスタムパッケージです。Google Fontsを使用しています。
