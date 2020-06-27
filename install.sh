@@ -1,3 +1,5 @@
+#!/bin/bash
+
 wget -O [zipファイルの名前] [ダウンロードファイルのURL(URLが変わらないもの(Google Fontsなど)がベスト!)]
 mkdir [フォント名]
 unzip [zipファイルの名前] -d [フォント名]
