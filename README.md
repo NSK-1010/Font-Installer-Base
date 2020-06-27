@@ -31,6 +31,13 @@ cd [リポジトリ名]
 sudo bash ./install-deb.sh
 ```
 
+#### debファイルを作成するのみ
+
+```
+git clone https://github.com/[ユーザー名]/[リポジトリ名].git
+cd [リポジトリ名]
+sudo bash ./build-deb.sh
+```
 ### 更新履歴について
 
 [changelog.txt](./changelog.txt)に書いてあります。
