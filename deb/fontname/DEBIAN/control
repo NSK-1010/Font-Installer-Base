@@ -1,8 +1,0 @@
-Package: fonts-[フォント名]-custom
-Maintainer: [パッケージのメンテナーの名前] <[メールアドレス]>
-Section: fonts
-Priority: optional
-Architecture: all
-Depends: ${misc:Depends}
-Description: [短い説明]
-[長い説明]
