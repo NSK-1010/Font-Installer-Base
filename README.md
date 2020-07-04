@@ -5,8 +5,6 @@
 
 [install.rb](./install.rb),[changelog.txt](./changelog.txt)の[]の部分とこの文書(この段落のもの以外)を中に書いてあるものに従って書き換え([]はいりません)、[changelog.txt](./changelog.txt)とこの文書を加筆し、この文書を自分好みに書き換えてください。
 
-そして、[fontname](./deb/fontname)をインストールするフォント名に変更してください。
-
 ### インストール方法
 
 ターミナルでこちらのコマンドを入力してください。
