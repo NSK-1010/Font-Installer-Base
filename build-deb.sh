@@ -1,19 +1,27 @@
 #!/bin/bash
 
+
+zipname="`[zipファイルの名前]`"
+downloadfile="`[ダウンロードファイルのURL(URLが変わらないもの(Google Fontsなど)がベスト!)]`"
+fontname="`[フォント名]`"
+dir="`[フォントがあるディレクトリ]`"
+
 cd deb
-cd [フォント名]
+cd "${fontname}"
 mkdir usr
 cd usr
 mkdir share
 cd share
-wget -O [zipファイルの名前] [ダウンロードファイルのURL(URLが変わらないもの(Google Fontsなど)がベスト!)]
-mkdir [フォント名]
-unzip [zipファイルの名前] -d [フォント名]
-mv ./[フォントがあるディレクトリ]/*.ttf ./
-rm -r [フォント名]
-mkdir [フォント名]
-mv ./*.ttf [フォント名]
-rm [zipファイルの名前]
+mkdir fonts
+cd fonts
+wget -O "${zipname}" "${downloadfile}"
+mkdir "${fontname}"
+unzip "${zipname}" -d "${fontname}"
+mv ./${dir}/*.ttf ./
+rm -r "${fontname}"
+mkdir "${fontname}"
+mv ./*.ttf "${fontname}"
+rm "${zipname}"
 cd ../../..
-dpkg -b [フォント名]
+dpkg -b "${fontname}"
 cd ..
