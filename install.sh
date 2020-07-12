@@ -1,9 +1,14 @@
 #!/bin/bash
 
-wget -O [zipファイルの名前] [ダウンロードファイルのURL(URLが変わらないもの(Google Fontsなど)がベスト!)]
-mkdir [フォント名]
-unzip [zipファイルの名前] -d [フォント名]
-sudo mkdir /usr/share/fonts/[フォント名]
-sudo mv ./[フォントがあるディレクトリ]/*.ttf /usr/share/fonts/[フォント名]/
-rm -r [フォント名]
-rm [zipファイルの名前]
+zipname="`[zipファイルの名前]`"
+downloadfile="`[ダウンロードファイルのURL(URLが変わらないもの(Google Fontsなど)がベスト!)]`"
+fontname="`[フォント名]`"
+dir="`[フォントがあるディレクトリ]`"
+
+wget -O "${zipname} "${downloadfile}"
+mkdir "${fontname}"
+unzip "${zipname}" -d 
+sudo mkdir "/usr/share/fonts/${fontname}"
+sudo mv "/${dir}/*.ttf /usr/share/fonts/${fontname}"
+rm -r ${fontname}
+rm ${zipname}
