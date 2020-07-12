@@ -8,6 +8,7 @@
 そして、[fontname](./deb/fontname)をインストールするフォント名に変更してください。
 
 ### 依存環境
+
 `bash`,`mv`,`wget`,`unzip`,`mkdir`,`rm`
 
 ### インストール方法
