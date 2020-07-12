@@ -9,6 +9,6 @@ wget -O "${zipname}" "${downloadfile}"
 mkdir "${fontname}"
 unzip "${zipname}" -d 
 sudo mkdir "/usr/share/fonts/${fontname}"
-sudo mv "/${dir}/*.ttf /usr/share/fonts/${fontname}"
+sudo mv "/${dir}/*.ttf" "/usr/share/fonts/${fontname}"
 rm -r "${fontname}"
 rm "${zipname}"
