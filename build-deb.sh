@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-zipname="`[zipファイルの名前]`"
-downloadfile="`[ダウンロードファイルのURL(URLが変わらないもの(Google Fontsなど)がベスト!)]`"
-fontname="`[フォント名]`"
-dir="`[フォントがあるディレクトリ]`"
+zipname="[zipファイルの名前]"
+downloadfile="[ダウンロードファイルのURL(URLが変わらないもの(Google Fontsなど)がベスト!)]"
+fontname="[フォント名]"
+dir="[フォントがあるディレクトリ]"
 
 cd deb
 cd "${fontname}"
